@@ -1,0 +1,18 @@
+/* .vitepress/theme/style.css */
+
+/* 引入思源宋体 */
+@import url("https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@200..900&display=swap");
+
+:root {
+  /* 覆盖 Vitepress 的默认字体，优先使用思源宋体和衬线体 */
+  --vp-font-family-base: "Noto Serif SC", "Times New Roman", serif;
+  
+  /* 你也可以在这里覆盖代码块的等宽字体 */
+  --vp-font-family-mono: "Fira Code", monospace; 
+}
+
+/* 微调正文排版，使其更贴近原版的阅读体验 */
+.vp-doc {
+  font-size: 16px;
+  line-height: 1.8;
+}
